@@ -174,7 +174,15 @@ a {
     justify-content: space-between;
 }
 
-
+.client .images  a {
+    padding: 0 42px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 12px;
+}
 /* ========= guides=========*/
 
 .guises {
@@ -602,5 +610,5 @@ a {
 .footer .copyright {
     color: #C2C2C2;
     font-size: 14px;
-    font-weight: 400;
+   font-weight: 400;
 }
