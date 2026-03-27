@@ -56,15 +56,26 @@ a {
 }
 
 /* Header */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background: #e6f0ff;
+    padding: 26px 0 0;
+}
+
 .header {
+    position: relative;
     background: #e6f0ff; 
     overflow: hidden;
 }
-
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    padding-top: 12px 0; 
+
 }
 
 .navbar ul {
@@ -100,7 +111,7 @@ a {
 }
 /* Hero */
 .hero {
-    margin-top: 130px;
+    margin-top: 140px;
     position: relative;
     min-height: 620px;
 }
@@ -143,7 +154,7 @@ a {
 .hero-img {
     position: absolute;
     right: 0;
-    bottom: 13rem; /* nâng ảnh lên chút */
+    bottom: 10rem; /* nâng ảnh lên chút */
     width: 52%;
     max-width: 584px;
     height: auto;
@@ -181,7 +192,7 @@ a {
     align-items: center;
     background: #FFF;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.10);
-    border-radius: 12px;
+    border-radius: 12px ;
 }
 /* ========= guides=========*/
 
